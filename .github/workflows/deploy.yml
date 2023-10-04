@@ -1,4 +1,10 @@
 # Sub-workflow to pull from main repo and deploy to gh-pages branch
+name: Deploy LHTP career services site
+run-name: Deploy LHTP career services site
+
+on:
+  workflow_call:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
